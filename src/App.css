@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+  background: #FFADAD;
+  }
+
+#quote-box{
+  background: #FFFFFC;
+  width: 40rem;
+  margin: 10rem auto;
+  padding: 3rem;
+  border-radius: 5px;
+}  
+
+#text{
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+#author{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.2rem;
+
+}
+
+#buttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2rem;
+  margin-right: 20rem;
+}
+
+.socilMedia{
+  display: flex;
+}
+.socilMedia > a {
+  margin-right: 0.5rem;
+  background: #FFADAD;
+  padding: 0.3rem 0.5rem;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.socilMedia > a.hover{
+  opacity: 0.9;
+}
+.socialMedia > a img{
+  width: 1.5rem;
+}
+
+#new-quote{
+  background: #FFADAD;
+  border: none;
+  color: #FFFFFC;
+  padding: 0.7rem 1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+}
+
+#new-quote:hover{
+  opacity: 0.9;
+}
+
+#header{
+  font-family: 'Dongle', sans-serif;
+  font-size: 2rem;
+  color: rgb(26, 22, 22);
+  font-weight: 100;
+  text-align: center;
+}
+
+#footer{
+  font-family: 'Dongle', sans-serif;
+  font-size: 2rem;
+  color: rgb(26, 22, 22);
+  font-weight: 100;
+  text-align: center;
+  position: relative;
+
+}
